@@ -608,14 +608,7 @@ body::-webkit-scrollbar {
   /* CSS Rules Here */
 
   .transOverlay{
-    position: absolute;
-    overflow: hidden;
-    z-index: 95;
-    width: 150vw;
-    height: 150vh;
-    background: rgb(9, 25, 253);
-    left: 0;
-    top: 0;
+    display: none;
 }
 
   .header{
