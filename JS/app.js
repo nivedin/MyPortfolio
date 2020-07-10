@@ -70,12 +70,12 @@ const hero = document.querySelector('.transOverlay');
 const heading = document.querySelector('.mainHeading');
 const nav = document.querySelector('nav');
 
-// const tl = new TimelineMax();
+const tl = new TimelineMax();
 
 
-// tl.fromTo(hero,2,{height:"100%"},{height:"0%",ease:Power2.easeInOut})
-// .fromTo(heading,.5,{opacity:0,x:30},{opacity:1,x:0},"-=1")
-// .fromTo(nav,.5,{opacity:0},{opacity:1},"-=.5")
+tl.fromTo(hero,2,{height:"100%"},{height:"0%",ease:Power2.easeInOut})
+.fromTo(heading,.5,{opacity:0,x:30},{opacity:1,x:0},"-=1")
+.fromTo(nav,.5,{opacity:0},{opacity:1},"-=.5")
 
 
 let navHamburger = document.querySelector("nav .navButton");

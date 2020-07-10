@@ -30,6 +30,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.transOverlay {
+  position: absolute;
+  z-index: 95;
+  width: 100%;
+  height: 100%;
+  background: #0919fd;
+  left: 0;
+  top: 0;
+}
+
 .cursor {
   width: 3rem;
   height: 3rem;
@@ -667,6 +677,16 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 812px) {
   /* CSS Rules Here */
+  .transOverlay {
+    position: absolute;
+    overflow: hidden;
+    z-index: 95;
+    width: 200%;
+    height: 200%;
+    background: #0919fd;
+    left: 0;
+    top: 0;
+  }
   .header {
     height: 40vh;
     background: #f7f7f7;
@@ -790,8 +810,8 @@ body::-webkit-scrollbar {
   .navClose {
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
-    clip-path: circle(100px at 60% -10%);
-    -webkit-clip-path: circle(100px at 60% -10%);
+    clip-path: circle(100px at 80% -10%);
+    -webkit-clip-path: circle(100px at 80% -10%);
   }
   .navButton.change div:nth-child(1) {
     width: 50px;
