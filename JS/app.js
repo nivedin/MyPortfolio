@@ -131,7 +131,6 @@ fadeHeading.addEventListener('mouseleave',(e) => {
 
 
 let summaryHeading = document.querySelector(".summary .summaryHeading h1");
-let ProjectHeading = document.querySelector(".project .projectHeading h1");
 
 if(window.innerWidth < "880"){
     summaryHeading.classList.remove("display-2");
