@@ -684,9 +684,6 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 812px) {
   /* CSS Rules Here */
-  .transOverlay {
-    display: none;
-  }
   .header {
     height: 40vh;
     background: #f7f7f7;
