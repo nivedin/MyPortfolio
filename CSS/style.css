@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-size: 18px;
   cursor: none;
@@ -67,8 +67,8 @@ body::-webkit-scrollbar {
           transition-duration: 400ms;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
-  -webkit-animation: cursorAnim .5s infinite alternate;
-          animation: cursorAnim .5s infinite alternate;
+  -webkit-animation: cursorAnim 0.5s infinite alternate;
+          animation: cursorAnim 0.5s infinite alternate;
 }
 
 @-webkit-keyframes cursorAnim {
@@ -118,9 +118,9 @@ body::-webkit-scrollbar {
   pointer-events: none;
   z-index: 999;
   background: white;
-  opacity: .9;
-  -webkit-animation: .3s enteredAnim forwards;
-          animation: .3s enteredAnim forwards;
+  opacity: 0.9;
+  -webkit-animation: 0.3s enteredAnim forwards;
+          animation: 0.3s enteredAnim forwards;
 }
 
 .mouseEntered {
@@ -144,8 +144,8 @@ body::-webkit-scrollbar {
   pointer-events: none;
   z-index: 999;
   background: white;
-  -webkit-animation: .5s enteredAnim forwards;
-          animation: .5s enteredAnim forwards;
+  -webkit-animation: 0.5s enteredAnim forwards;
+          animation: 0.5s enteredAnim forwards;
 }
 
 @-webkit-keyframes enteredAnim {
@@ -216,24 +216,24 @@ body::-webkit-scrollbar {
 .header .navButton div:nth-child(1) {
   width: 50px;
   height: 4px;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background: black;
 }
 
 .header .navButton div:nth-child(2) {
   width: 30px;
   height: 4px;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background: black;
 }
 
 .header .navButton div:nth-child(3) {
   width: 40px;
   height: 4px;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background: #0616ff;
 }
 
@@ -350,8 +350,8 @@ body::-webkit-scrollbar {
 
 .navButton.change div:nth-child(2) {
   width: 0px;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navButton.change div:nth-child(3) {
@@ -385,13 +385,13 @@ body::-webkit-scrollbar {
 .main .fadeHeading {
   position: absolute;
   top: 78%;
-  opacity: .5;
+  opacity: 0.5;
   left: 75%;
   color: blue;
   font-size: 7rem;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .main .mainHeading {
@@ -641,8 +641,8 @@ body::-webkit-scrollbar {
 .contact .contactFooter span {
   font-size: 2.5rem;
   padding: 25px;
-  -webkit-transition: all .1 ease-in-out;
-  transition: all .1 ease-in-out;
+  -webkit-transition: all 0.1 ease-in-out;
+  transition: all 0.1 ease-in-out;
   -webkit-animation: 3s footerAnim infinite ease-in-out;
           animation: 3s footerAnim infinite ease-in-out;
 }
@@ -726,22 +726,22 @@ body::-webkit-scrollbar {
   .header .navButton div:nth-child(1) {
     width: 50px;
     height: 4px;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background: black;
   }
   .header .navButton div:nth-child(2) {
     width: 30px;
     height: 4px;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background: black;
   }
   .header .navButton div:nth-child(3) {
     width: 40px;
     height: 4px;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background: #0616ff;
   }
   .navOpen {
@@ -820,8 +820,8 @@ body::-webkit-scrollbar {
   }
   .navButton.change div:nth-child(2) {
     width: 0px;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .navButton.change div:nth-child(3) {
     width: 50px;
@@ -852,13 +852,13 @@ body::-webkit-scrollbar {
     overflow: hidden;
     position: absolute;
     top: 95%;
-    opacity: .5;
+    opacity: 0.5;
     left: -40px;
     color: blue;
     font-size: 3.3rem;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
   }
   .main .mainHeading {
     position: absolute;
@@ -1074,8 +1074,8 @@ body::-webkit-scrollbar {
     width: 70%;
     margin-left: 50px;
     font-size: 2.5rem;
-    -webkit-transition: all .1 ease-in-out;
-    transition: all .1 ease-in-out;
+    -webkit-transition: all 0.1 ease-in-out;
+    transition: all 0.1 ease-in-out;
     -webkit-animation: 3s footerAnim infinite ease-in-out;
             animation: 3s footerAnim infinite ease-in-out;
   }
